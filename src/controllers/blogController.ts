@@ -25,7 +25,6 @@ class BlogController {
         content: req.body.content,
       };
 
-      console.log(blogData);
       const createdBlog = await blogService.createBlog(blogData);
       ResponseHandler.created(res, createdBlog, "success");
     } catch (err) {

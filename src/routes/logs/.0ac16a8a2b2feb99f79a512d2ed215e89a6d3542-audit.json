@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\user\\Desktop\\schoolinka-blog\\src\\routes\\logs\\.0ac16a8a2b2feb99f79a512d2ed215e89a6d3542-audit.json",
+    "files": [
+        {
+            "date": 1693704735467,
+            "name": "C:\\Users\\user\\Desktop\\schoolinka-blog\\src\\routes\\logs\\application-2023-09-03.log",
+            "hash": "44729f9b3dd1a9c2683f8a5574c440ab8768220533877df00e68289fdf909b83"
+        }
+    ],
+    "hashType": "sha256"
+}
