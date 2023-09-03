@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\user\\Desktop\\schoolinka-blog\\src\\logs\\.3ada28fb47a7d99489e050372be13d86b2f8de04-audit.json",
+    "files": [
+        {
+            "date": 1693581598247,
+            "name": "C:\\Users\\user\\Desktop\\schoolinka-blog\\src\\logs\\application-2023-09-01.log",
+            "hash": "b13cf4a6c7a47796ecac9953088b4085645ad42ed58d5d214ddb4e6c62649aa6"
+        },
+        {
+            "date": 1693640564993,
+            "name": "C:\\Users\\user\\Desktop\\schoolinka-blog\\src\\logs\\application-2023-09-02.log",
+            "hash": "1af53e4589289991ceb06f8268d471f9f9af0b901f3fb76c6d4576c5b4928564"
+        },
+        {
+            "date": 1693696082759,
+            "name": "C:\\Users\\user\\Desktop\\schoolinka-blog\\src\\logs\\application-2023-09-03.log",
+            "hash": "9ef25c3b0f580b8f42e12d680d77fbafd3cbd81a67427bd638a255c0c59e1fc7"
+        }
+    ],
+    "hashType": "sha256"
+}
