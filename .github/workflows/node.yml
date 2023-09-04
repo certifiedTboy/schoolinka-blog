@@ -7,10 +7,9 @@ on:
 jobs:
   integration-test:
     runs-on: ubuntu-latest
-    container: node:10.18-jessie
     strategy:
       matrix:
-        node-version: [14.x, 18.x]
+        node-version: [18.x]
     services:
       postgres:
         image: postgres
