@@ -101,6 +101,7 @@ class BlogController {
    * @param {Request} req
    * @param {Response} res
    * @param {NextFunction} next
+   *
    * @returns {array}
    */
   static async updateABlog(req: Request, res: Response, next: NextFunction) {
