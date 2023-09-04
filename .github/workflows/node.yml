@@ -14,9 +14,13 @@ jobs:
       postgres:
         image: postgres
         env:
-          POSTGRES_PASSWORD: postgres
-        ports:
-          - 5432:5432
+          POSTGRES_PASSWORD:
+            postgres
+            # The hostname used to communicate with the PostgreSQL service container
+          POSTGRES_HOST:
+            postgres
+            # The default PostgreSQL port
+          POSTGRES_PORT: 5432
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -24,9 +28,10 @@ jobs:
           --health-retries 5
     steps:
       - uses: actions/checkout@v3
-        # - name: Use Node.js version 18.17.1
+      # - name: use Node.js version 18.17.1
       - uses: actions/setup-node@v3
         with:
           node-version: ${{matrix.node-version}}
       - run: npm install --force
+      - run: npm test-2
       - run: npm test
