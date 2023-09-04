@@ -1,0 +1,10 @@
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"GET /api/v1/blogs HTTP/1.1\" 200 31 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"POST /api/v1/blogs/create HTTP/1.1\" 201 199 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"POST /api/v1/blogs/create HTTP/1.1\" 400 883 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"DELETE /api/v1/blogs/6/delete HTTP/1.1\" 422 32 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"DELETE /api/v1/blogs/100000/delete HTTP/1.1\" 422 32 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"PUT /api/v1/blogs/7/update HTTP/1.1\" 200 39 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:11:16 +0000] \"PUT /api/v1/blogs/7/update HTTP/1.1\" 400 883 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:15:14 +0000] \"GET /api/v1/blogs HTTP/1.1\" 200 31 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:15:14 +0000] \"POST /api/v1/blogs/create HTTP/1.1\" 201 199 \"-\" \"-\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Sep/2023:21:15:14 +0000] \"POST /api/v1/blogs/create HTTP/1.1\" 400 883 \"-\" \"-\"\n"}
