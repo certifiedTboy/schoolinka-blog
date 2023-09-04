@@ -24,7 +24,6 @@
     "start": "pm2 start dist/src/server.js -i max",
     "dev": "nodemon src/server.ts",
     "test": "jest",
-    "test-2":"node src/server.ts",
     "test-watch": "jest --watch"
   },
   "author": "Adebisi Tosin",

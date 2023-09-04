@@ -7,9 +7,10 @@ on:
 jobs:
   integration-test:
     runs-on: ubuntu-latest
+    container: node:10.18-jessie
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [14.x, 18.x]
     services:
       postgres:
         image: postgres
@@ -33,5 +34,4 @@ jobs:
         with:
           node-version: ${{matrix.node-version}}
       - run: npm install --force
-      - run: npm test-2
       - run: npm test
